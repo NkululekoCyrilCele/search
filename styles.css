@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.links {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links a:hover {
+    color: #4a4a4a;
+}
+
+.space {
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto -160px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: ;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    margin-top: 180px;
+}
